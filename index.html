@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>ストップウォッチ</title>
+  </head>
+  <body>
+    <div class=stopwatch>
+      <h3 class="watch-font">ストップウォッチ</h3>
+
+        <p id="timer" class="timer">0:0:0:0</p>
+        
+    
+        <div class="buttons">
+          <input type="button" value="スタート" onclick="countUp()" class="content-element">
+          </input>
+          <input type="button" value="ストップ" onclick="countStop()" class="content-element">
+          </input>
+          <input type="button" value="リセット" onclick="countReset()" class="content-element">
+          </input>
+        </div>
+      
+      
+      
+    </div>
+  <script src="main.js"></script>
+  </body>
+</html>

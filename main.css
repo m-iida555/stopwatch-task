@@ -1,0 +1,53 @@
+.stopwatch{
+  display: block;
+  width: 30%;
+  height: auto;
+  border: 10px solid #bfbfbf;
+  border-radius: 10px;
+  
+}
+
+.timer{
+  display: flex;
+  width: 60%;
+  height: 50px;
+  font-size: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 30px
+}
+
+
+h3 .watch-font{
+  font-weight: bold;
+}
+
+.counter{
+  width: 60%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 30px;
+}
+
+.counter p span{
+  font-size: 30px;
+}
+
+.buttons{
+  display: flex;
+  width: 90%;
+  margin-left: 5px;
+  margin-bottom: 55px;
+}
+
+.content-element{
+  width: auto;
+  height: auto;
+  padding: 10px 15px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.content-element + .content-element{
+  margin-left: 5px;
+}
